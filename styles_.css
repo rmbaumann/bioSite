@@ -2,7 +2,7 @@ body {
     background-color:#1C5D99;
     font-size: 1.25em
     padding:20px;
-    margin-top: 150px;
+    margin-top: 10px;
     margin-bottom: 100px;
     margin-right: 300px;
     margin-left: 300px;
@@ -17,25 +17,26 @@ h1,h2,h3,h4,h5 {
     line-height: 26px;
     color:#FFFFFF;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    padding: 0 0 0px 30
+    
     }
 
 ol {
     font-family: 'Barlow', Verdana, Arial, sans-serif;
     color:white;
-    border: solid white; 
-    border-radius: 4px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     padding-left: 2px;
     padding-right: 2px;
-    padding-top; 2px;
+    padding-top; 0px;
     list-style-position: inside;
 }
 
 ul {
     font-family: 'Barlow', Verdana, Arial, sans-serif;
     color:white;
-    border: solid white; 
-    border-radius: 4px;
     padding-bottom: 0px;
     padding-left: 2px;
     padding-right: 2px;
@@ -47,13 +48,10 @@ p {
     font-family: 'Barlow', Verdana, Arial, san-serif;
     font-size: 16px;
     color:#FFFFFF;
-    border: 1em solid #1C5D99; 
-    border-radius: 4px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top; 2px;
-    background-color: #1C5D99
+    background-color: #1C5D99;
+    margin-top: 0;
+    text-indent: 2em;
+    padding: 0 5px 0 5px;
 }
 
 div {
@@ -61,10 +59,10 @@ div {
     color:#FFFFFF;
     border: 1em solid #1C5D99; 
     border-radius: 4px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     padding-left: 2px;
     padding-right: 2px;
-    padding-top; 2px;
+    padding-top; 0px;
     background-color: #1C5D99
 }
 
@@ -93,6 +91,20 @@ img.BrisketthePirate{
     margin-bottom:2px;
 }
 
+img.grid{
+    position: relative;
+}
+
+.textblock{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 header {
     font-family:'Loved by the King', sans-serif;
     font-size: 40px;
@@ -105,34 +117,10 @@ header {
     color:#FFFFFF;
     border: dashed #FFFFFF; 
     border-radius: 4px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top; 2px;
+    padding: 20px;
+    text-align: center;
 }
 
-figcaption {
-    display: table;
-    caption-side: top;
-}
-
-img.astronaut{
-    float:center;
-    margin-left: 2px;
-    margin-bottom: 2px;
-}
-       
-img.firefighter{
-    float:center;
-    margin-left: 2px;
-    margin-bottom: 2px;
-}
-
-img.building{
-    float:center;
-    margin-left: 2px;
-    margin-bottom: 2px;
-}
 
 a:link{
     color:deepskyblue;
@@ -148,3 +136,65 @@ a:hover{
 a:active{
     color:cornflowerblue;  
 
+}
+
+div.row {
+    display: block;
+    border: 3px;
+    margin:0 auto;
+        
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+img.Jeeping{
+    float:center;
+    position:absolute;
+}
+
+img.BrisketandLiam{
+    float:center;
+}
+
+img.Bridge{
+    float:center;
+}
+
+img.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+}
+
+img.bridge{
+    float: right;
+    padding: 20px;
+    border:hidden;
+    
+}
+
+img.yeah{
+    float:left;
+    padding: 20px;
+    border:hidden;
+}
+
+img.brisk{
+    float: right;
+    padding: 20px;
+    border:hidden;
+}
+
+figcaption{
+    position:absolute;
+    font-family: 'Barlow', Verdana, Arial, sans-serif;
+    text-align:center;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    padding: 0 0 50px 30
+}
