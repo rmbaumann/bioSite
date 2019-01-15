@@ -1,0 +1,150 @@
+body {
+    background-color:#1C5D99;
+    font-size: 1.25em
+    padding:20px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    color:#000000;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family:'Loved by the King', sans-serif;
+    font-size: 72px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 26px;
+    color:#FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+ol {
+    font-family: 'Barlow', Verdana, Arial, sans-serif;
+    color:white;
+    border: solid white; 
+    border-radius: 4px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top; 2px;
+    list-style-position: inside;
+}
+
+ul {
+    font-family: 'Barlow', Verdana, Arial, sans-serif;
+    color:white;
+    border: solid white; 
+    border-radius: 4px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top; 0px;
+    list-style-position: inside;
+}
+
+p {
+    font-family: 'Barlow', Verdana, Arial, san-serif;
+    font-size: 16px;
+    color:#FFFFFF;
+    border: 1em solid #1C5D99; 
+    border-radius: 4px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top; 2px;
+    background-color: #1C5D99
+}
+
+div {
+    color:white;
+    color:#FFFFFF;
+    border: 1em solid #1C5D99; 
+    border-radius: 4px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top; 2px;
+    background-color: #1C5D99
+}
+
+img.banner{
+    display:block;
+    float:center;
+    margin-left:auto;
+    margin-bottom:auto;
+    
+}
+
+img {
+    padding:1px;
+    border:1px solid #BBCDE5;
+ }
+
+img.smile{
+    float:right;
+    margin-left:5px;
+    margin-bottom:5px;
+    }
+
+img.BrisketthePirate{
+    float:right;
+    margin-left:2px;
+    margin-bottom:2px;
+}
+
+header {
+    font-family:'Loved by the King', sans-serif;
+    font-size: 40px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 26px;
+    color:#FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-stretch: expanded;
+    color:#FFFFFF;
+    border: dashed #FFFFFF; 
+    border-radius: 4px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top; 2px;
+}
+
+figcaption {
+    display: table;
+    caption-side: top;
+}
+
+img.astronaut{
+    float:center;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+       
+img.firefighter{
+    float:center;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+img.building{
+    float:center;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+a:link{
+    color:deepskyblue;
+}
+a:visited{
+    color:lightsteelblue;
+    
+}
+a:hover{
+    color:#BBCDE5;
+    
+}
+a:active{
+    color:cornflowerblue;  
+
